@@ -1,0 +1,102 @@
+#main {
+    /* border: solid red 3px; */
+    min-height: 600px;
+    margin-top: 20px;
+    background: rgb(148, 148, 148);
+}
+
+#title {
+    /* border: solid red 3px; */
+    min-height: 75px;
+    margin: 5px;
+    text-align: center;
+}
+
+#question1 {
+    min-height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answers1 {
+    min-height: 25px;
+}
+
+#question2 {
+    min-height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answers2 {
+    min-height: 25px;
+}
+
+#question3 {
+    min-height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answers3 {
+    min-height: 25px;
+}
+
+#question4 {
+    min-height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answers4 {
+    min-height: 25px;
+}
+
+#question5 {
+    min-height: 30px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#answers5 {
+    min-height: 25px;
+}
+
+#start {
+    margin-top: 20px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+#submit {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 28px;
+    font-weight: bolder;
+    min-height: 75px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#right {
+    font-weight: bold;
+    color: green;
+}
+
+#wrong {
+    font-weight: bold;
+    color: rgb(167, 4, 4)
+}
+
+
+
+
