@@ -1,15 +1,14 @@
 #main {
-    /* border: solid red 3px; */
-    min-height: 600px;
-    margin-top: 20px;
+    margin-top: 5px;
     background: rgb(148, 148, 148);
 }
 
 #title {
-    /* border: solid red 3px; */
-    min-height: 75px;
-    margin: 5px;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
 }
 
 #question1 {
