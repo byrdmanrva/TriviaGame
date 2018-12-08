@@ -20,6 +20,7 @@
 
 #answers1 {
     min-height: 25px;
+    visibility: hidden;
 }
 
 #question2 {
@@ -31,6 +32,7 @@
 
 #answers2 {
     min-height: 25px;
+    visibility: hidden;
 }
 
 #question3 {
@@ -42,6 +44,7 @@
 
 #answers3 {
     min-height: 25px;
+    visibility: hidden;
 }
 
 #question4 {
@@ -53,6 +56,7 @@
 
 #answers4 {
     min-height: 25px;
+    visibility: hidden;
 }
 
 #question5 {
@@ -64,6 +68,7 @@
 
 #answers5 {
     min-height: 25px;
+    visibility: hidden;
 }
 
 #start {

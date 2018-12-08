@@ -16,26 +16,35 @@ var timer = 60;
 
 function run() {
     intervalId = setInterval(decrement, 1000);
-  }
+}
 
-  function decrement() {
+function decrement() {
 
     timer--;
 
     $("#timer").text("Timer: " + timer);
 
     if (timer === 0) {
-      stop();
-      alert("Time's up!");
+        stop();
+        alert("Time's up!");
     }
-  }
-
-function stop() {
-clearInterval(intervalId);
 }
 
-$(document).ready(function() {
-    $("#start").on("click", function() {
+function stop() {
+    clearInterval(intervalId);
+}
+
+
+
+
+$(document).ready(function () {
+    
+    $("#start").on("click", function () {
+        $("#answers1").css('visibility', 'visible');
+        $("#answers2").css('visibility', 'visible');
+        $("#answers3").css('visibility', 'visible');
+        $("#answers4").css('visibility', 'visible');
+        $("#answers5").css('visibility', 'visible');
         $("#question1").text(question1);
         $("#question2").text(question2);
         $("#question3").text(question3);
@@ -64,36 +73,36 @@ $(document).ready(function() {
         $("#answer5_4").text(answers5[3]);
         run();
     }
-)
-    $("#submit").on("click", function() {
+    )
+    $("#submit").on("click", function () {
         if ($("#customRadioInline3").is(":checked")) {
             right++;
         }
         else {
             wrong++;
         }
-        
+
         if ($("#customRadioInline6").is(":checked")) {
             right++;
         }
         else {
             wrong++;
         }
-        
+
         if ($("#customRadioInline12").is(":checked")) {
             right++;
         }
         else {
             wrong++;
         }
-        
+
         if ($("#customRadioInline13").is(":checked")) {
             right++;
         }
         else {
             wrong++;
         }
-        
+
         if ($("#customRadioInline19").is(":checked")) {
             right++;
         }

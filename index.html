@@ -1,158 +1,204 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Winter Trivia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
-    
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Winter Trivia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+                integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+
 </head>
+
 <body>
-<body background="assets/images/fresh_snow_1.png">
 
-    <div class="row">
-        <div class="col-md-8 mx-auto">
-                <div class="jumbotron" id="main">
-                    <div class="row">
-                        <div class="col-md-8 mx-auto" id="title">
-                            <p>Winter Trivia</p>
-                        </div>
-                        <div class="col-md-8 mx-auto" id="question1">
-                            
-                        </div>
-                        <div class="col-md-8 mx-auto" id="answers1">
-                            <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline1" id="answer1_1"></label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline2" id="answer1_2"></label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline3" id="answer1_3"></label>
-                            </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadioInline4" id="answer1_4"></label>
-                            </div>
-                        </div>
-                        <div class="col-md-8 mx-auto" id="question2">
-                            
-                        </div>
-                        <div class="col-md-8 mx-auto" id="answers2">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline5" id="answer2_1"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline6" name="customRadioInline2" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline6" id="answer2_2"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline7" name="customRadioInline2" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline7" id="answer2_3"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline8" name="customRadioInline2" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline8" id="answer2_4"></label>
-                                </div>
-                        </div>
-                        <div class="col-md-8 mx-auto" id="question3">
-                            
-                        </div>
-                        <div class="col-md-8 mx-auto" id="answers3">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline9" name="customRadioInline3" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline9" id="answer3_1"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline10" name="customRadioInline3" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline10" id="answer3_2"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInlin11" name="customRadioInline3" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline11" id="answer3_3"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline12" name="customRadioInline3" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline12" id="answer3_4"></label>
-                                </div>
-                        </div>
-                        <div class="col-md-8 mx-auto" id="question4">
-                            
-                        </div>
-                        <div class="col-md-8 mx-auto" id="answers4">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline13" name="customRadioInline4" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline13" id="answer4_1"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline14" name="customRadioInline4" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline14" id="answer4_2"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline15" name="customRadioInline4" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline15" id="answer4_3"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline16" name="customRadioInline4" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline16" id="answer4_4"></label>
-                                </div>
-                        </div>
-                        <div class="col-md-8 mx-auto" id="question5">
-                            
-                        </div>
-                        <div class="col-md-8 mx-auto" id="answers5">
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline17" name="customRadioInline5" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline17" id="answer5_1"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline18" name="customRadioInline5" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline18" id="answer5_2"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline19" name="customRadioInline5" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline19" id="answer5_3"></label>
-                                </div>
-                                <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="customRadioInline20" name="customRadioInline5" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline20" id="answer5_4"></label>
-                                </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <button type="button" class="btn btn-light" id="start">START</button>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="button" class="btn btn-primary" id="submit">Submit</button>
-                            </div>
-                            <div class="col-md-3" id="timer">
-                        </div>
-                        <div class="row mx-auto">
-                            <div class="col-md-4 mx-auto" id="right">
+        <body background="assets/images/fresh_snow_1.png">
 
-                            </div>
-                            <div class="col-md-4 mx-auto" id="wrong">
+                <div class="row">
+                        <div class="col-md-8 mx-auto">
+                                <div class="jumbotron" id="main">
+                                        <div class="row">
+                                                <div class="col-md-8 mx-auto" id="title">
+                                                        <p>Winter Trivia</p>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="question1">
 
-                            </div>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="answers1">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline1"
+                                                                        id="answer1_1"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline2"
+                                                                        id="answer1_2"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline3" name="customRadioInline1"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline3"
+                                                                        id="answer1_3"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline4" name="customRadioInline1"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline4"
+                                                                        id="answer1_4"></label>
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="question2">
+
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="answers2">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline5" name="customRadioInline2"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline5"
+                                                                        id="answer2_1"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline6" name="customRadioInline2"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline6"
+                                                                        id="answer2_2"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline7" name="customRadioInline2"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline7"
+                                                                        id="answer2_3"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline8" name="customRadioInline2"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline8"
+                                                                        id="answer2_4"></label>
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="question3">
+
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="answers3">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline9" name="customRadioInline3"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline9"
+                                                                        id="answer3_1"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline10" name="customRadioInline3"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline10"
+                                                                        id="answer3_2"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInlin11" name="customRadioInline3"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline11"
+                                                                        id="answer3_3"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline12" name="customRadioInline3"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline12"
+                                                                        id="answer3_4"></label>
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="question4">
+
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="answers4">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline13" name="customRadioInline4"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline13"
+                                                                        id="answer4_1"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline14" name="customRadioInline4"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline14"
+                                                                        id="answer4_2"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline15" name="customRadioInline4"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline15"
+                                                                        id="answer4_3"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline16" name="customRadioInline4"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline16"
+                                                                        id="answer4_4"></label>
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="question5">
+
+                                                </div>
+                                                <div class="col-md-8 mx-auto" id="answers5">
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline17" name="customRadioInline5"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline17"
+                                                                        id="answer5_1"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline18" name="customRadioInline5"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline18"
+                                                                        id="answer5_2"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline19" name="customRadioInline5"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline19"
+                                                                        id="answer5_3"></label>
+                                                        </div>
+                                                        <div class="custom-control custom-radio custom-control-inline">
+                                                                <input type="radio" id="customRadioInline20" name="customRadioInline5"
+                                                                        class="custom-control-input">
+                                                                <label class="custom-control-label" for="customRadioInline20"
+                                                                        id="answer5_4"></label>
+                                                        </div>
+                                                </div>
+                                                <div class="row">
+                                                        <div class="col-md-4">
+                                                                <button type="button" class="btn btn-light" id="start">START</button>
+                                                        </div>
+                                                        <div class="col-md-4">
+                                                                <button type="button" class="btn btn-primary" id="submit">Submit</button>
+                                                        </div>
+                                                        <div class="col-md-3" id="timer">
+                                                        </div>
+                                                        <div class="row mx-auto">
+                                                                <div class="col-md-4 mx-auto" id="right">
+
+                                                                </div>
+                                                                <div class="col-md-4 mx-auto" id="wrong">
+
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                        </div>
+                                </div>
+
                         </div>
-
-
-                        </div>
-                    </div>
                 </div>
-            
-        </div>
-    </div>
 
-  
-</body>
+
+        </body>
+
 </html>
